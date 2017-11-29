@@ -28,7 +28,7 @@ type (
 		Host           []string
 		Port           int
 		Timeout        time.Duration
-		CommandTimeout int
+		CommandTimeout time.Duration
 		Script         []string
 		Secrets        []string
 		Envs           []string

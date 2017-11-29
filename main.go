@@ -198,7 +198,7 @@ func run(c *cli.Context) error {
 			Host:           c.StringSlice("host"),
 			Port:           c.Int("port"),
 			Timeout:        c.Duration("timeout"),
-			CommandTimeout: c.Int("command.timeout"),
+			CommandTimeout: c.Duration("command.timeout"),
 			Script:         c.StringSlice("script"),
 			Secrets:        c.StringSlice("secrets"),
 			Envs:           c.StringSlice("envs"),
